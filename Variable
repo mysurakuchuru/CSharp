@@ -1,0 +1,85 @@
+//Usage of Different Variables
+/* int (integer) used for declaring whole numbers without decimals
+double (double) used for declaring whole numbers with decimals
+char (character) used for declaring alphabets , for example 'a', 'b' (Need to use Single Quotes)
+string (string) used for declaring words, for example "Hello" (Need to use Double Quotes)
+bool (Boolean) used to determine whether its true or false*/
+
+//Example Code for int
+
+using System;
+
+namespace Variable
+{
+  class program
+  { 
+    static void Main(string[]args)
+    {
+      int num = 20;
+      Console.Write(num);
+    }
+  }
+}
+
+//Example Code for double
+
+using System;
+
+namespace Variable
+{
+  class program
+  { 
+    static void Main(string[]args)
+    {
+      double dec = 20.01;
+      Console.Write(double);
+    }
+  }
+}
+
+//Example Code for char
+
+using System;
+
+namespace Variable
+{
+  class program
+  { 
+    static void Main(string[]args)
+    {
+      char alphabet = 'a';
+      Console.Write(alphabet);
+    }
+  }
+}
+
+//Example Code for string
+
+using System;
+
+namespace Variable
+{
+  class program
+  { 
+    static void Main(string[]args)
+    {
+      string word = "Mysura";
+      Console.Write(word);
+    }
+  }
+}
+
+//Example Code for bool
+
+using System;
+
+namespace Variable
+{
+  class program
+  { 
+    static void Main(string[]args)
+    {
+      bool expression = true; //can use false sometimes
+    }
+  }
+}
