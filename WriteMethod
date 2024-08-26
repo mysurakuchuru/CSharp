@@ -1,0 +1,17 @@
+#Difference Between Write() and WriteLine() Method
+#Write() Doesn't gives us a new line, whereas
+#WriteLine() gives us a new Line
+
+using System;
+
+namespace WriteLine
+{
+  class program2
+  {
+    static void Main(string[]args)
+    {
+      Console.Write("Hello, World!");
+      Console.WriteLine("Updated Version!");
+    }
+  }
+}
