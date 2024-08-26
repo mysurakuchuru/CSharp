@@ -1,0 +1,20 @@
+#Comments in CSharp
+//Single Line Comment
+/* Multi
+Line 
+Comment*/
+
+using System;
+
+namespace Comments
+{
+  class program3
+  {
+    static void Main(string[]args)
+    {
+      Console.Write("Hello, World!"); //First Comment
+      /*Second
+        Comment*/
+    }
+  }
+}
